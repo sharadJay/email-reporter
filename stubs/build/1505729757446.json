@@ -1,0 +1,96 @@
+{
+  "results": {
+    "passed": 8,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 8,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/CollisionDamageWaiver": {
+        "completed": {
+          "Verify Collision damage waiver is displayed": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 1897 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#details-included-in-rate> was present after 22 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to contain: \"Collision damage protection (CDW) with excess of £1,000.00\" - condition was met in 155ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-not-included-in-rate> text to contain: \"CDW excludes damage or loss to tyres, windscreen, glass and undercarriage\" - condition was met in 148ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8317,
+            "time": "8.317"
+          },
+          "Verify Collision damage waiver is not displayed": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 1618 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#details-included-in-rate> was present after 1318 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to not contain: \"Collision damage protection (CDW) with excess of \" - condition was met in 283ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-not-included-in-rate> text to not contain: \"CDW excludes damage or loss to tyres, windscreen, glass and undercarriage\" - condition was met in 238ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 13316,
+            "time": "13.32"
+          }
+        },
+        "skipped": [],
+        "time": "21.63",
+        "timestamp": "Mon, 18 Sep 2017 10:15:17 GMT",
+        "group": "Infosite",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 8,
+    "environment": "UK"
+  },
+  "locale": "en_GB",
+  "group": "stubbed"
+}

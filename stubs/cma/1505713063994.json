@@ -1,0 +1,96 @@
+{
+  "results": {
+    "passed": 8,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 8,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/SnowChainsIncluded": {
+        "completed": {
+          "Verify Snow Chains Is Not Included In Rate": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Passed [ok]: Stub is incorrect with snowchains included",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.site-content> was present after 22 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_SnowChains> to be present - element was present in 1794ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to not contain: \"If you are picking up in a location which requires mandatory winter tyres or snow chains, these will be included in the rate as mandatory winter fees.\" - condition was met in 44ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 9257,
+            "time": "9.257"
+          },
+          "Verify Snow Chains Is Included In Rate": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Passed [ok]: Stub is incorrect with snowchains not included",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.site-content> was present after 33 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_SnowChains> to not be present - element was not found in 16ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to contain: \"If you are picking up in a location which requires mandatory winter tyres or snow chains, these will be included in the rate as mandatory winter fees.\" - condition was met in 37ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 15887,
+            "time": "15.89"
+          }
+        },
+        "skipped": [],
+        "time": "25.14",
+        "timestamp": "Mon, 18 Sep 2017 05:37:11 GMT",
+        "group": "Infosite",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 8,
+    "environment": "UK"
+  },
+  "locale": "en_GB",
+  "group": "cma"
+}

@@ -1,0 +1,76 @@
+<style>
+    .fail {
+        color: red;
+    }
+
+    .pass {
+        color: green;
+    }
+
+    .skip {
+        color: blue;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+</style>
+
+<h1>Test Execution Summary</h1>
+<h2>Summary</h2>
+<!--<table>-->
+<!--<tr>-->
+<!--<th>-->
+<!--Number Of Tests-->
+<!--</th>-->
+<!--<th>-->
+<!--Number Of Failure-->
+<!--</th>-->
+<!--<th>-->
+<!--Number Of Errors-->
+<!--</th>-->
+<!--</tr>-->
+
+<!--<tr>-->
+<!--<td>{{suite.summary.tests}}</td>-->
+<!--<td>{{suite.summary.failures}}</td>-->
+<!--<td>{{suite.summary.errors}}</td>-->
+<!--</tr>-->
+<!--</table>-->
+<h2>Test Results</h2>
+{% for suite in result %}
+<h3>{{ loop.key }}</h3>
+<table>
+    <tr>
+        <th>
+            Test Number
+        </th>
+        <th>
+            Test Name
+        </th>
+    </tr>
+    {% for test in suite.tests %}
+    {% if test.passed %}
+    <tr>
+        <td class="pass">
+            {{loop.index}}
+        </td>
+        <td class="pass">
+            {{test.name}}
+        </td>
+    </tr>
+    {% else %}
+    <tr>
+        <td class="fail">
+            {{loop.index}}
+        </td>
+        <td class="fail">
+            {{test.name}}
+        </td>
+    </tr>
+    {% endif %}
+
+    {% endfor %}
+</table>
+{% endfor %}
