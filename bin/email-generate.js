@@ -8,11 +8,11 @@ fs = require('fs');
 program
     .version(package.version)
     .option('-p, --project [name]', 'Name of the project')
-    .option('-i, --input [resultsdir]', 'Results directory', './resultsJSON')
+    .option('-i, --input [resultsdir]', 'Results directory', './resultJSON')
     .option('-o, --output [type]', 'Output html path [dir]', process.cwd() + "/emailableReport.html").
     parse(process.argv);
 if (program.input && program.project) {
-    require("../lib/index")(process.cwd() + program.input, function (result) {
+    require("../lib/index")(process.cwd() + program.input, function (result, error) {
         fs.writeFile(program.output, template({"result": result}), function (err) {
             if (err) {
                 return console.log(err);
