@@ -8,7 +8,7 @@ fs = require('fs');
 program
     .version(package.version)
     .option('-p, --project [name]', 'Name of the project')
-    .option('-i, --input [resultsdir]', 'Results directory', './resultJSON')
+    .option('-i, --input [resultsdir]', 'Results directory', '/resultJSON')
     .option('-o, --output [type]', 'Output html path [dir]', process.cwd() + "/emailableReport.html").
     parse(process.argv);
 if (program.input && program.project) {
