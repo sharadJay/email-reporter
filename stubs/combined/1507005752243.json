@@ -1,0 +1,130 @@
+{
+  "results": {
+    "passed": 12,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 12,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/youngDriverCharges": {
+        "completed": {
+          "Verify young age surcharge is displayed": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 3261 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Passed [ok]: { price: { roundedValue: 72, formattedValue: '£72.00', value: 72 },\n  description: 'Young driver',\n  type: 'YoungDriver' } ok",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to contain: \"Age surcharge: £72.00\" - condition was met in 333ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18784,
+            "time": "18.78"
+          },
+          "Verify young age surcharge price is not displayed if price is not passed": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 7552 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#details-included-in-rate> was visible after 2001 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to contain: \"Age surcharge\" - condition was met in 539ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#details-included-in-rate> was visible after 115 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to not contain: \"Age surcharge: \" - condition was met in 346ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18097,
+            "time": "18.10"
+          },
+          "Verify young age surcharge is not displayed": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 1164 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Passed [ok]: true ok",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#details-included-in-rate> was visible after 95 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#details-included-in-rate> text to not contain: \"Age surcharge: \" - condition was met in 250ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 13712,
+            "time": "13.71"
+          }
+        },
+        "skipped": [],
+        "time": "50.59",
+        "timestamp": "Tue, 03 Oct 2017 04:39:01 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 12,
+    "environment": "UK"
+  },
+  "locale": "en_GB",
+  "group": "cmainfosite"
+}

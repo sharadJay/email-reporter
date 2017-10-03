@@ -1,0 +1,62 @@
+{
+  "results": {
+    "passed": 4,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 4,
+    "errmessages": [],
+    "modules": {
+      "stubbed/swpCars/NonRewardsUserDontSeeToggle": {
+        "completed": {
+          "Verify SwP Toggle does not appear on Search Results Page for Non-Rewards User": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 14272 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\" - condition was met in 64ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#search-results> was present after 380 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#point-text-wrapper> to not be present - element was not found in 67ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 23485,
+            "time": "23.48"
+          }
+        },
+        "skipped": [],
+        "time": "23.48",
+        "timestamp": "Tue, 03 Oct 2017 04:44:47 GMT",
+        "group": "swpCars",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 4,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

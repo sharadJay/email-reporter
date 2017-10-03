@@ -1,0 +1,106 @@
+{
+  "results": {
+    "passed": 8,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 8,
+    "errmessages": [],
+    "modules": {
+      "stubbed/sortBarSection/sortByPopularity/TestSortByPopularity": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 129 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20314,
+            "time": "20.31"
+          },
+          "SortByRating Is Visible in SortBar section": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#offer-sort-bar> was visible after 87 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#offer-sort-bar li>button[data-opt-group='Most Popular']> to be visible - condition was met in 83ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if element <#offer-sort-bar li>button[data-opt-group='Most Popular']> does not have css class: \"selected\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 261,
+            "time": "0.2610"
+          },
+          "Review container is visible on click of SortByRating": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.high-demand-in-offer-card> was visible after 411 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if element <#offer-sort-bar li>button[data-opt-group='Most Popular']> has css class: \"selected\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.high-demand-in-offer-card> to be visible - condition was met in 125ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 3275,
+            "time": "3.275"
+          }
+        },
+        "skipped": [],
+        "time": "23.85",
+        "timestamp": "Tue, 03 Oct 2017 04:44:15 GMT",
+        "group": "sortByPopularity",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 8,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

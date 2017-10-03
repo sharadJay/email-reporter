@@ -1,0 +1,220 @@
+{
+  "results": {
+    "passed": 22,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 22,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/AirportRoundtripPageLocalizationVerification": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 14028 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 19189,
+            "time": "19.19"
+          },
+          "Search For Car From Airport To Airport in Spanish": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 31 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 23589,
+            "time": "23.59"
+          },
+          "Click on first available car verify infosite in Spanish": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 189 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 59ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 30148,
+            "time": "30.15"
+          },
+          "Search For Car From Airport To Airport in Chinese": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 133 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 15625,
+            "time": "15.63"
+          },
+          "Click on first available car to verify infosite in Chinese": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 117 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 40ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 19067,
+            "time": "19.07"
+          },
+          "Search For Car From Airport To Airport in English": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 75 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 24929,
+            "time": "24.93"
+          }
+        },
+        "skipped": [],
+        "time": "132.5",
+        "timestamp": "Tue, 03 Oct 2017 04:39:02 GMT",
+        "group": "Scenario",
+        "tests": 6,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 22,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

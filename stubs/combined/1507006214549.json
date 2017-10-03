@@ -1,0 +1,78 @@
+{
+  "results": {
+    "passed": 10,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 11,
+    "errmessages": [],
+    "modules": {
+      "stubbed/sortBarSection/sortByDistance/TestSortByDistance": {
+        "completed": {
+          "Search For Car From Off-Airport To Off-Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 439 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals in Redmond from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 7.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 7308,
+            "time": "7.308"
+          },
+          "SortByDistance Is Visible in SortBar section": {
+            "passed": 1,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#offer-sort-bar> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#offer-sort-bar li>button[data-opt-group='Distance']> to be visible - element was not found",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/sortBarSection/sortByDistance/TestSortByDistance.js:29:27)",
+                "fullMsg": "Expected element <#offer-sort-bar li>button[data-opt-group='Distance']> to be visible - element was not found \u001b[1;37m - expected \u001b[0;32m\"visible\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"not found\"\u001b[0m",
+                "failure": "Expected \"visible\" but got: \"not found\""
+              }
+            ],
+            "timeMs": 60298,
+            "time": "60.30"
+          }
+        },
+        "skipped": [],
+        "time": "67.61",
+        "timestamp": "Tue, 03 Oct 2017 04:49:01 GMT",
+        "group": "sortByDistance",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 11,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

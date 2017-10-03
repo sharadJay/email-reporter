@@ -1,0 +1,56 @@
+{
+  "results": {
+    "passed": 3,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 3,
+    "errmessages": [],
+    "modules": {
+      "stubbed/errorValidations/TestErrorIsDisplayedWhenTripIsGreaterThan330Days": {
+        "completed": {
+          "Enter Booking Period greater than 330 days": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <input#pick-up-date> was visible after 2594 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if element <.drop-off fieldset.datetime label.time> has css class: \"invalid\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors .error-summary> text to contain: \"Rentals must be between 10/3/2017 and 8/28/2018.\" - condition was met in 159ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 10280,
+            "time": "10.28"
+          }
+        },
+        "skipped": [],
+        "time": "10.28",
+        "timestamp": "Tue, 03 Oct 2017 04:44:52 GMT",
+        "group": "errorValidations",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 3,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

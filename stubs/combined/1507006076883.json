@@ -1,0 +1,182 @@
+{
+  "results": {
+    "passed": 14,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 14,
+    "errmessages": [],
+    "modules": {
+      "stubbed/storefrontValidation/AccessorySelectedFromStoreFrontPage": {
+        "completed": {
+          "Search For Car From Airport To Airport with Infant seat selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 334 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'seis=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 10021,
+            "time": "10.02"
+          },
+          "Search For Car From Airport To Airport with Left hand control selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 418 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'selh=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 7475,
+            "time": "7.475"
+          },
+          "Search For Car From Airport To Airport with Right hand control selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 6323 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'serh=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 9236,
+            "time": "9.236"
+          },
+          "Search For Car From Airport To Airport with Navigation System selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 802 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'sens=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8758,
+            "time": "8.758"
+          },
+          "Search For Car From Airport To Airport with Ski racks selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 394 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'sesr=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8821,
+            "time": "8.821"
+          },
+          "Search For Car From Airport To Airport with snow chains selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 347 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'sesc=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 13348,
+            "time": "13.35"
+          },
+          "Search For Car From Airport To Airport with Toddler seat selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 6978 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.book-container>a' have attribute 'href' contatining value 'sets=1'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 10310,
+            "time": "10.31"
+          }
+        },
+        "skipped": [],
+        "time": "67.97",
+        "timestamp": "Tue, 03 Oct 2017 04:46:42 GMT",
+        "group": "storefrontValidation",
+        "tests": 7,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 14,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

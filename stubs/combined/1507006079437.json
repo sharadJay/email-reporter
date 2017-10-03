@@ -1,0 +1,296 @@
+{
+  "results": {
+    "passed": 56,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 56,
+    "errmessages": [],
+    "modules": {
+      "stubbed/errorValidations/TestErrorIsDisplayedForInvalidDates": {
+        "completed": {
+          "Search For Car With Invalid Pickup Date Format": {
+            "passed": 9,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was visible after 430 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"10/08/2017\" - condition was met in 19ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#pick-up-time>option[value='1130AM']> was visible after 23 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#drop-off-time>option[value='1230AM']> was visible after 22 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <label.invalid[for='pick-up-date']> to be present - element was present in 1733ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> to be present in 30000ms - element was present in 8ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please enter date like this: mm/dd/yyyy\" - condition was met in 73ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 85ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 66ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 9621,
+            "time": "9.621"
+          },
+          "Search For Car With Past Pickup Date": {
+            "passed": 11,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was present after 524 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#pick-up-location> was visible after 32 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"09/28/2017\" - condition was met in 19ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#pick-up-time>option[value='1130AM']> was visible after 22 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#drop-off-time>option[value='1230AM']> was visible after 23 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input#pick-up-date> was visible after 4222 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <label.invalid[for='pick-up-date']> to be present - element was present in 12ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> to be visible - condition was met in 27ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Select a pick-up date on or after today's date.\" - condition was met in 90ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 71ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 71ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 11889,
+            "time": "11.89"
+          },
+          "Enter Past Drop Off Date": {
+            "passed": 8,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was visible after 436 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"10/03/2017\" - condition was met in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#pick-up-time>option[value='1130AM']> was visible after 37 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#drop-off-time>option[value='1230AM']> was visible after 21 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <label.invalid[for='drop-off-date']> to be present - element was present in 1103ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Select a drop-off date on or after today's date.\" - condition was met in 86ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 71ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 74ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8661,
+            "time": "8.661"
+          },
+          "Search For Car With Drop Off Date Before Pick Up Date": {
+            "passed": 10,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was present after 2743 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#pick-up-location> was visible after 42 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"10/08/2017\" - condition was met in 28ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#pick-up-time>option[value='1130AM']> was visible after 21 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#drop-off-time>option[value='1230AM']> was visible after 30 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input#pick-up-date> was visible after 1193 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'label.select.invalid' are 2.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"The drop-off date and time must occur at least 2 hours after the pick-up date and time.\" - condition was met in 88ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 85ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 767ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 10951,
+            "time": "10.95"
+          }
+        },
+        "skipped": [],
+        "time": "41.12",
+        "timestamp": "Tue, 03 Oct 2017 04:47:11 GMT",
+        "group": "errorValidations",
+        "tests": 4,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 56,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

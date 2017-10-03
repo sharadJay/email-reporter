@@ -1,0 +1,124 @@
+{
+  "results": {
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 11,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/MapView": {
+        "completed": {
+          "Turn Off Abacus 11194,12117 And Turn On Abacus 10387": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Abacus 11599 is set to 0",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 1323,
+            "time": "1.323"
+          },
+          "Search for a car offairport roundtrip and verify map view is not shown on infosite": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4130 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 126 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Economy from Enterprise at $128 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.infositeMapContainer>a> to not be present - element was not found in 59ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 17529,
+            "time": "17.53"
+          },
+          "Turn on experiment and verify map view is shown on infosite page": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 11599 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.site-content> was present after 3062 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.infositeMapContainer>a> to be present - element was present in 1781ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.infositeMapContainer>a' are 2.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.map-overlay> to be present - element was present in 2637ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18325,
+            "time": "18.32"
+          }
+        },
+        "skipped": [],
+        "time": "37.18",
+        "timestamp": "Tue, 03 Oct 2017 04:39:01 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 11,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

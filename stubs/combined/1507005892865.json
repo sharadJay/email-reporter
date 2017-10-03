@@ -1,0 +1,214 @@
+{
+  "results": {
+    "passed": 26,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 26,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/FlightMipOffersAirportRoundTrip": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 3487 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 2.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 14932,
+            "time": "14.93"
+          },
+          "Verify attributes displayed on MIP offer Card": {
+            "passed": 17,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <div.total> text to contain: \"$190\" - condition was met in 315ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.full-price> text to contain: \"$44\" - condition was met in 96ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='mileage']> text to contain: \"Unlimited mileage\" - condition was met in 157ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='transmission']> text to contain: \"Automatic transmission\" - condition was met in 152ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-model> text to equal: \"Nissan Versa | Chevy Sonic or similar\" - condition was met in 210ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.fullName> text to contain: \"Compact\" - condition was met in 109ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified undefined elements located by locator '.attributes-summary>.air-conditioning' presence is 'true'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.door-attr span:nth-child(3)> text to equal: \"4\" - condition was met in 124ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.passengers-attr span:nth-child(3)> text to equal: \"5\" - condition was met in 127ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pickup-location div.shuttle-location-info> text to equal: \"Shuttle to counter and car\" - condition was met in 118ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Reference price has a line through - condition was met in 52ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.priceAmount> text to equal: \"$225\" - condition was met in 125ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified element div.flex-card.flex-tile.offer-card has 1 children with locator .pre-pay-verbiage",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Pay Now message has green color - condition was met in 76ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mip-price-cut> text to equal: \"Exclusive offer - Because you booked a flight, save 16% on this car rental.\" - condition was met in 62ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mip-title> text to contain: \"Because you booked a flight, you qualify for exclusive car deals.\" - condition was met in 110ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mip-title> text to contain: \"Exclusive Offer\" - condition was met in 94ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 2090,
+            "time": "2.090"
+          },
+          "Click on first available car": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 171 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 35ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 26761,
+            "time": "26.76"
+          }
+        },
+        "skipped": [],
+        "time": "43.78",
+        "timestamp": "Tue, 03 Oct 2017 04:39:03 GMT",
+        "group": "Scenario",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 26,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

@@ -1,0 +1,102 @@
+{
+  "results": {
+    "passed": 9,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 9,
+    "errmessages": [],
+    "modules": {
+      "stubbed/loadMoreResults/UserAbleToLoadMoreResults": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 377 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18075,
+            "time": "18.07"
+          },
+          "Click on load more results button": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <.pagination .btn-secondary> to be visible - condition was met in 749ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pagination .backToTop> to be visible - condition was met in 57ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 31.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pagination .show-all-message> to be visible - condition was met in 100ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pagination .show-all-message> text to contain: \"31\" - condition was met in 79ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pagination .btn-secondary> to not be present - element was not found in 25ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 2833,
+            "time": "2.833"
+          }
+        },
+        "skipped": [],
+        "time": "20.91",
+        "timestamp": "Tue, 03 Oct 2017 04:45:36 GMT",
+        "group": "loadMoreResults",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 9,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

@@ -1,0 +1,370 @@
+{
+  "results": {
+    "passed": 42,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 42,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/AirportToOffAirportOneWayPageLocalizationVerification": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 11629 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 21851,
+            "time": "21.85"
+          },
+          "Click on Book button for first offer card and Verify the drop off page is displayed": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-results> was visible after 550 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 1201ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 26175,
+            "time": "26.18"
+          },
+          "Click on first available car and verify that infosite page is displayed": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified buttons on page Dropoff Page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verifying that the Dropoff Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 273 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 47ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 22399,
+            "time": "22.40"
+          },
+          "Search For Car From Airport To Airport in Spanish": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 9334 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18602,
+            "time": "18.60"
+          },
+          "Click on Book button for first offer card and Verify the drop off page is displayed in Spanish": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-results> was visible after 46 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 123ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 30536,
+            "time": "30.54"
+          },
+          "Click on first available car and verify that infosite page is displayed in Spanish": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified buttons on page Dropoff Page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verifying that the Dropoff Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 410 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 47ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 17443,
+            "time": "17.44"
+          },
+          "Search For Car From Airport To Airport in Chinese": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 17590 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 24903,
+            "time": "24.90"
+          },
+          "Click on Book button for first offer card and Verify the drop off page is displayed in Chinese": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-results> was visible after 65 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 62ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 14820,
+            "time": "14.82"
+          },
+          "Click on first available car and verify that infosite page is displayed in Chinese": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified buttons on page Dropoff Page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verifying that the Dropoff Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 91 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 25ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 13145,
+            "time": "13.14"
+          }
+        },
+        "skipped": [],
+        "time": "189.9",
+        "timestamp": "Tue, 03 Oct 2017 04:39:03 GMT",
+        "group": "Scenario",
+        "tests": 9,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 42,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

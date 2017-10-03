@@ -1,0 +1,90 @@
+{
+  "results": {
+    "passed": 12,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 13,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/OffairportRoundtrip": {
+        "completed": {
+          "Search For Car From Off-Airport To Off-Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 414 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals in Redmond from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8810,
+            "time": "8.810"
+          },
+          "Verify attributes displayed on offer Card": {
+            "passed": 3,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Passed [ok]: true ok",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.total> text to contain: \"$139\" - condition was met in 33ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.full-price> text to contain: \"$23\" - condition was met in 32ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='mileage']> text to contain: \"Unlimited mileage\"",
+                "stackTrace": "    at Object.validateOfferCard (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/searchListPage.js:338:25)\n    at Object.Verify attributes displayed on offer Card (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/Scenario/OffairportRoundtrip.js:25:24)",
+                "fullMsg": "Expected element <.offer-attributes *[data-name='mileage']> text to contain: \"Unlimited mileage\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Unlimited mileage'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"\"\u001b[0m",
+                "failure": "Expected \"contain 'Unlimited mileage'\" but got: \"\""
+              }
+            ],
+            "timeMs": 60132,
+            "time": "60.13"
+          }
+        },
+        "skipped": [],
+        "time": "68.94",
+        "timestamp": "Tue, 03 Oct 2017 04:46:50 GMT",
+        "group": "Scenario",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 13,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

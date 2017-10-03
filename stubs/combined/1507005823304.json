@@ -1,0 +1,114 @@
+{
+  "results": {
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 11,
+    "errmessages": [],
+    "modules": {
+      "stubbed/dropOffPage/DropOffPageShowConfidenceMessagesAccordingPrepaid": {
+        "completed": {
+          "Verify URL param prepaid is true works on drop off page": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 5583 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 131ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.top-messages.confidenceMsgInFlex> to be visible - condition was met in 114ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.earn-rewards-messaging> to be visible - condition was met in 86ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.book-now-pay-later-messaging> to not be present - element was not found in 118ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 16491,
+            "time": "16.49"
+          },
+          "Verify URL param prepaid is false works on drop off page": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 10636 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 997ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.top-messages.confidenceMsgInFlex> to be visible - condition was met in 95ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.earn-rewards-messaging> to be visible - condition was met in 90ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> to be visible - condition was met in 103ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.book-now-pay-later-messaging> to be visible - condition was met in 98ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 21300,
+            "time": "21.30"
+          }
+        },
+        "skipped": [],
+        "time": "37.79",
+        "timestamp": "Tue, 03 Oct 2017 04:42:47 GMT",
+        "group": "dropOffPage",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 11,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

@@ -1,0 +1,96 @@
+{
+  "results": {
+    "passed": 8,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 8,
+    "errmessages": [],
+    "modules": {
+      "stubbed/dropOffPage/DropOffShowOnlyCarsWithAC": {
+        "completed": {
+          "Verify URL param showOnlyCarsWithAC is true works on drop off page": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 7683 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div>li' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 311ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .air-conditioning> to be visible - condition was met in 241ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 23110,
+            "time": "23.11"
+          },
+          "Verify URL param showOnlyCarsWithAC is false works on drop off page": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 3430 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div>li' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 170ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .air-conditioning> to not be present - element was not found in 61ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20890,
+            "time": "20.89"
+          }
+        },
+        "skipped": [],
+        "time": "44.00",
+        "timestamp": "Tue, 03 Oct 2017 04:43:32 GMT",
+        "group": "dropOffPage",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 8,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

@@ -1,0 +1,214 @@
+{
+  "results": {
+    "passed": 26,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 26,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/AirportRoundtripAgencyPrepaid": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 874 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Los Angeles Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 24587,
+            "time": "24.59"
+          },
+          "Verify attributes displayed on offer Card": {
+            "passed": 17,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <div.total> text to contain: \"$224\" - condition was met in 986ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.full-price> text to contain: \"$84\" - condition was met in 295ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='mileage']> text to contain: \"Unlimited mileage\" - condition was met in 370ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='transmission']> text to contain: \"Automatic transmission\" - condition was met in 323ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-model> text to equal: \"Toyota Corolla or similar\" - condition was met in 130ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.fullName> text to contain: \"Standard\" - condition was met in 226ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified undefined elements located by locator '.attributes-summary>.air-conditioning' presence is 'true'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.door-attr span:nth-child(3)> text to equal: \"4/5\" - condition was met in 173ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.passengers-attr span:nth-child(3)> text to equal: \"5\" - condition was met in 129ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified element div.flex-card.flex-tile.offer-card has 1 children with locator .pickup-location div.shuttle-location-info",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pickup-location div.shuttle-location-info> text to equal: \"Shuttle to counter and car\" - condition was met in 221ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.location.dropoff-location> to not be present - element was not found in 32ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pre-pay-verbiage> text to equal: \"Pay now special\" - condition was met in 245ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Reference price has a line through - condition was met in 151ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.priceAmount> text to equal: \"$261\" - condition was met in 300ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> to not be present - element was not found in 109ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.book-now-pay-later-messaging> to not be present - element was not found in 27ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 3930,
+            "time": "3.930"
+          },
+          "Click on first available car": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 300 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 57ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 25145,
+            "time": "25.14"
+          }
+        },
+        "skipped": [],
+        "time": "53.66",
+        "timestamp": "Tue, 03 Oct 2017 04:39:02 GMT",
+        "group": "Scenario",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 26,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

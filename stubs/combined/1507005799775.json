@@ -1,0 +1,120 @@
+{
+  "results": {
+    "passed": 12,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 12,
+    "errmessages": [],
+    "modules": {
+      "stubbed/errorValidations/TestErrorDisplayedOnBookingTimeLessThan2Hours": {
+        "completed": {
+          "Enter Booking Period less than 1.5 hours": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <input#pick-up-date> was visible after 4083 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"The drop-off date and time must occur at least 2 hours after the pick-up date and time.\" - condition was met in 390ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 361ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 287ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 14908,
+            "time": "14.91"
+          },
+          "Enter Current time as pickUp time and  Booking Period less than 2 hours": {
+            "passed": 8,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <input#pick-up-date> was visible after 5369 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <select#pick-up-time> text to contain: \"5:00am\" - condition was met in 2703ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <select#drop-off-time> text to contain: \"6:00am\" - condition was met in 2401ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if element <.pick-up fieldset.datetime label.time> has css class: \"invalid\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if element <.drop-off fieldset.datetime label.time> has css class: \"invalid\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"The drop-off date and time must occur at least 2 hours after the pick-up date and time.\" - condition was met in 496ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 428ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 405ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20642,
+            "time": "20.64"
+          }
+        },
+        "skipped": [],
+        "time": "35.55",
+        "timestamp": "Tue, 03 Oct 2017 04:42:27 GMT",
+        "group": "errorValidations",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 12,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

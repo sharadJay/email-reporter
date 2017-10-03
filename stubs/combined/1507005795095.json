@@ -1,0 +1,156 @@
+{
+  "results": {
+    "passed": 18,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 18,
+    "errmessages": [],
+    "modules": {
+      "stubbed/dropOffPage/DropOffPageDisplayedAccordingToTransmissionType": {
+        "completed": {
+          "Offers on drop off displayed according to transmission type was auto in url on drop off": {
+            "passed": 9,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 4219 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 111ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div>li' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.top-messages.confidenceMsgInFlex> to be visible - condition was met in 129ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.base .price-value> text to contain: \"$42\" - condition was met in 136ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.total .price-value> text to contain: \"$126\" - condition was met in 190ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .transmission> text to contain: \"Automatic\" - condition was met in 214ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.images>img.vendor-image> to have attribute \"src\" contain: \"//images.trvl-media.com/cars/logos/SX.png\" - condition was met in 64ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.location > h3 > span> text to contain: \"13.54\" - condition was met in 195ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 16249,
+            "time": "16.25"
+          },
+          "Offers on drop off displayed according to transmission type was manual in url on drop off": {
+            "passed": 9,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 2933 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 533ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div>li' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.top-messages.confidenceMsgInFlex> to be visible - condition was met in 133ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.base .price-value> text to contain: \"$54\" - condition was met in 227ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.total .price-value> text to contain: \"$156\" - condition was met in 218ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .transmission> text to contain: \"Manual\" - condition was met in 224ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.images>img.vendor-image> to have attribute \"src\" contain: \"//images.trvl-media.com/cars/logos/SX.png\" - condition was met in 67ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.location > h3 > span> text to contain: \"18.30\" - condition was met in 145ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20222,
+            "time": "20.22"
+          }
+        },
+        "skipped": [],
+        "time": "36.47",
+        "timestamp": "Tue, 03 Oct 2017 04:42:16 GMT",
+        "group": "dropOffPage",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 18,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

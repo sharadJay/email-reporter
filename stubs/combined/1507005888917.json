@@ -1,0 +1,104 @@
+{
+  "results": {
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 11,
+    "errmessages": [],
+    "modules": {
+      "stubbed/errorValidations/TestErrorIsDisplayedOnEnteringEmptyPickUpLocation": {
+        "completed": {
+          "Enter Empty Pick Up Location": {
+            "passed": 11,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was present after 3351 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#pick-up-location> was visible after 140 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"10/08/2017\" - condition was met in 52ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#pick-up-time>option[value='1130AM']> was visible after 98 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#drop-off-time>option[value='1230AM']> was visible after 71 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#wizard-errors> was present after 2951 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified element .pick-up label.invalid has 1 children with locator #pick-up-location",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#pick-up-location> to have value equal: \"\" - condition was met in 47ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please enter a pick-up location.\" - condition was met in 220ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 136ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 144ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 26050,
+            "time": "26.05"
+          }
+        },
+        "skipped": [],
+        "time": "26.05",
+        "timestamp": "Tue, 03 Oct 2017 04:44:03 GMT",
+        "group": "errorValidations",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 11,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

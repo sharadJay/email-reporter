@@ -1,0 +1,382 @@
+{
+  "results": {
+    "passed": 155,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 156,
+    "errmessages": [],
+    "modules": {
+      "stubbed/storefrontValidation/VendorIsSelectedFromStoreFrontPage": {
+        "completed": {
+          "Search For Car From Airport To Airport with vendor selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 437 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8195,
+            "time": "8.195"
+          },
+          "Filter Section Is Visible For Vendor": {
+            "passed": 49,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 47 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was present after 313 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-vendor> text to contain: \"Rental car company\" - condition was met in 23ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='vendor']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 13 elements located by locator 'div:not(.disabled)>span.inline-label.lowest-price' contain text '$'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 19 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 337ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 84 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 138 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZR']> text to contain: \"Dollar\" - condition was met in 79ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZR'] .lowest-price> text to contain: \"$162\" - condition was met in 36ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 30 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 120ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 24 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 40 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='SX']> text to contain: \"Sixt\" - condition was met in 84ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='SX'] .lowest-price> text to contain: \"$263\" - condition was met in 39ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 54 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 427ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 20 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 122 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ET']> text to contain: \"Enterprise\" - condition was met in 45ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ET'] .lowest-price> text to contain: \"$300\" - condition was met in 25ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 35 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 129ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 132 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZD']> text to contain: \"Budget\" - condition was met in 46ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZD'] .lowest-price> text to contain: \"$294\" - condition was met in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 18 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 130ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 29 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 142 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='FX']> text to contain: \"Fox\" - condition was met in 77ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='FX'] .lowest-price> text to contain: \"$170\" - condition was met in 21ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 19 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 127ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 286 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 155 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZT']> text to contain: \"Thrifty\" - condition was met in 122ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZT'] .lowest-price> text to contain: \"$28\" - condition was met in 51ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 144ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 27 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 126 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='AL']> text to contain: \"Alamo\" - condition was met in 66ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='AL'] .lowest-price> text to contain: \"$15\" - condition was met in 30ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 39 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 127ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 6256,
+            "time": "6.256"
+          },
+          "Verify the selected Vendor Filter is applied": {
+            "passed": 2,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified 1 elements located by locator '.vendor-image-box>img' have attribute 'alt' contatining value 'dollar'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'dollar'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"1 Car at Seattle airport from $162\"",
+                "stackTrace": "    at Object.Verify the selected Vendor Filter is applied (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/storefrontValidation/VendorIsSelectedFromStoreFrontPage.js:45:44)",
+                "fullMsg": "Expected element <h1.section-header-main>div> text to equal: \"1 Car at Seattle airport from $162\" \u001b[1;37m - expected \u001b[0;32m\"equal '1 Car at Seattle airport from $162'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"1 Car at SEA airport from $162\"\u001b[0m",
+                "failure": "Expected \"equal '1 Car at Seattle airport from $162'\" but got: \"1 Car at SEA airport from $162\""
+              }
+            ],
+            "timeMs": 60496,
+            "time": "60.50"
+          }
+        },
+        "skipped": [],
+        "time": "74.95",
+        "timestamp": "Tue, 03 Oct 2017 04:49:38 GMT",
+        "group": "storefrontValidation",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 156,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

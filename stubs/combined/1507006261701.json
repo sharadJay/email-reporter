@@ -1,0 +1,256 @@
+{
+  "results": {
+    "passed": 92,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 93,
+    "errmessages": [],
+    "modules": {
+      "stubbed/storefrontValidation/CarTypeIsSelectedFromStoreFrontPage": {
+        "completed": {
+          "Search For Car From Airport To Airport with vendor selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 446 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 9349,
+            "time": "9.349"
+          },
+          "Filter Section Is Visible For Vendor": {
+            "passed": 28,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 44 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-carClass> was present after 14 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 34ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='carClass']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 12 elements located by locator 'div:not(.disabled)>span.inline-label.lowest-price' contain text '$'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 46 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 123ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 27 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 125 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 229ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 181 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 132ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 35 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 126 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 126ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 25 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 168 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 125ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 32 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 128 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 226ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 30 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 129 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 121ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 125 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 137ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 4369,
+            "time": "4.369"
+          },
+          "Verify the selected car type Filter is applied": {
+            "passed": 2,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified 2 elements located by locator '.fullName' have text 'Economy'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 2 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'Economy'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"2 Cars at Seattle airport from $28\"",
+                "stackTrace": "    at Object.Verify the selected car type Filter is applied (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/storefrontValidation/CarTypeIsSelectedFromStoreFrontPage.js:69:44)",
+                "fullMsg": "Expected element <h1.section-header-main>div> text to equal: \"2 Cars at Seattle airport from $28\" \u001b[1;37m - expected \u001b[0;32m\"equal '2 Cars at Seattle airport from $28'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"2 Cars at SEA airport from $28\"\u001b[0m",
+                "failure": "Expected \"equal '2 Cars at Seattle airport from $28'\" but got: \"2 Cars at SEA airport from $28\""
+              }
+            ],
+            "timeMs": 60361,
+            "time": "60.36"
+          }
+        },
+        "skipped": [],
+        "time": "74.08",
+        "timestamp": "Tue, 03 Oct 2017 04:49:41 GMT",
+        "group": "storefrontValidation",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 93,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

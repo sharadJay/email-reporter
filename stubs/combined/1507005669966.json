@@ -1,0 +1,100 @@
+{
+  "results": {
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 7,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/testMileage": {
+        "completed": {
+          "Turn Off Abacus 11194 And Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 766,
+            "time": "0.7660"
+          },
+          "Verify Mileage message is unlimited": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4167 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mileage-value> to be visible - condition was met in 373ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mileage-value .full-description> text to equal: \"Unlimited mileage\" - condition was met in 245ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20163,
+            "time": "20.16"
+          },
+          "Verify Mileage message is limited": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 398 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mileage-value> to be visible - condition was met in 211ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mileage-value .full-description> text to equal: \"Limited mileage\" - condition was met in 543ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 12269,
+            "time": "12.27"
+          }
+        },
+        "skipped": [],
+        "time": "33.20",
+        "timestamp": "Tue, 03 Oct 2017 04:39:02 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 7,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

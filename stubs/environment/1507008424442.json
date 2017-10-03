@@ -1,0 +1,892 @@
+{
+  "results": {
+    "passed": 87,
+    "failed": 12,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 99,
+    "errmessages": [],
+    "modules": {
+      "non-stubbed/scenarioTests/GuestUserAbleToBookCarForAirportRoundTrip": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 3,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 310 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Hire Cars and Car Hire at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 25 elements located by locator 'div.total' contain text '£'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.fees-make-model-message> text to contain: \"The makes/models shown are examples only. We are unable to guarantee a specific make/model. Actual makes/models are subject to availability and vary by hire car company.\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/non-stubbed/scenarioTests/GuestUserAbleToBookCarForAirportRoundTrip.js:22:43)",
+                "fullMsg": "Expected element <.fees-make-model-message> text to contain: \"The makes/models shown are examples only. We are unable to guarantee a specific make/model. Actual makes/models are subject to availability and vary by hire car company.\" \u001b[1;37m - expected \u001b[0;32m\"contain 'The makes/models shown are examples only. We are unable to guarantee a specific make/model. Actual makes/models are subject to availability and vary by hire car company.'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"The makes/models shown are examples only. We are unable to guarantee a specific make/model. Actual makes/models are subject to availability and vary by car hire company.\"\u001b[0m",
+                "failure": "Expected \"contain 'The makes/models shown are examples only. We are unable to guarantee a specific make/model. Actual makes/models are subject to availability and vary by hire car company.'\" but got: \"The makes/models shown are examples only. We are unable to guarantee a specific make/model. Actual makes/models are subject to availability and vary by car hire company.\""
+              }
+            ],
+            "timeMs": 89920,
+            "time": "89.92"
+          }
+        },
+        "skipped": [],
+        "time": "89.92",
+        "timestamp": "Tue, 03 Oct 2017 04:45:12 GMT",
+        "group": "scenarioTests",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/GuestUserOffAirportRoundTrip": {
+        "completed": {
+          "Search For Car From Off Airport to same Off Airport": {
+            "passed": 16,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 8163 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#search-results> was present after 12 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Hire Cars and Car Hire in Redmond from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to match: \"/\\d* Cars in Redmond from .*\\d*/\" - condition was met in 45ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 25 elements located by locator 'div.total' contain text '*'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#included-fees-message> text to contain: \"*Total includes taxes and insurance. Car hire company’s supplemental charges may apply. Details of mandatory or optional supplementary charges (which may include, but are not limited to charges for refueling, additional drivers, age-related driver surcharges, excess waivers, one way supplements or child seats) are set out in the car supplier’s rules and restrictions.\" - condition was met in 26ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#googleMapContainer> to be visible - condition was met in 33ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#filter-panel div #carMapContainer a #googleMapContainer div .mapIconOverlay> to be visible - condition was met in 30ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.fullName' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card-inner div.flex-figure figure img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.vendor-image-box>img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.attributes-summary' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.pickup-location.location' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.book-container>a' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.total' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.top-messages.confidenceMsgInFlex' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\"",
+                "stackTrace": "    at Object.verifyAllConfidenceMessages (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/common/pageHeaderComponent.js:12:29)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/searchListPage.js:159:35)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/custom-commands/getNumberOfElements.js:15:18)",
+                "fullMsg": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Free Cancellation'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"Free cancellation up to 6 hours before pick-up\"\u001b[0m",
+                "failure": "Expected \"contain 'Free Cancellation'\" but got: \"Free cancellation up to 6 hours before pick-up\""
+              }
+            ],
+            "timeMs": 71647,
+            "time": "71.65"
+          }
+        },
+        "skipped": [],
+        "time": "71.65",
+        "timestamp": "Tue, 03 Oct 2017 04:49:51 GMT",
+        "group": "scenarioTests",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/GuestUserOneWayAirportToAnotherAirport": {
+        "completed": {
+          "Search For Car From One Airport To Another Airport": {
+            "passed": 16,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 114 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Hire Cars and Car Hire at New York Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to match: \"/\\d* Cars at New York airport from .*\\d*/\" - condition was met in 43ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 25 elements located by locator 'div.total' contain text '*'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#included-fees-message> text to equal: \"*Total includes taxes and insurance. Car hire company’s supplemental charges may apply. Details of mandatory or optional supplementary charges (which may include, but are not limited to charges for refueling, additional drivers, age-related driver surcharges, excess waivers, one way supplements or child seats) are set out in the car supplier’s rules and restrictions.\" - condition was met in 31ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 31ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-priceRanges> text to contain: \"Total prices\" - condition was met in 20ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-vendor> text to contain: \"Car hire company\" - condition was met in 23ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.fullName' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card-inner div.flex-figure figure img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.vendor-image-box>img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.attributes-summary' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.pickup-location.location' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.book-container>a' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.total' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.top-messages.confidenceMsgInFlex' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\"",
+                "stackTrace": "    at Object.verifyAllConfidenceMessages (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/common/pageHeaderComponent.js:12:29)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/searchListPage.js:159:35)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/custom-commands/getNumberOfElements.js:15:18)",
+                "fullMsg": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Free Cancellation'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"Free cancellation up to 6 hours before pick-up\"\u001b[0m",
+                "failure": "Expected \"contain 'Free Cancellation'\" but got: \"Free cancellation up to 6 hours before pick-up\""
+              }
+            ],
+            "timeMs": 70543,
+            "time": "70.54"
+          }
+        },
+        "skipped": [],
+        "time": "70.54",
+        "timestamp": "Tue, 03 Oct 2017 04:53:47 GMT",
+        "group": "scenarioTests",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/GuestUserOneWayAirportToOffAirport": {
+        "completed": {
+          "Search For Car From Airport To Off Airport": {
+            "passed": 16,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 3344 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Hire Cars and Car Hire at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to match: \"/\\d* Cars at Seattle airport from .*\\d*/\" - condition was met in 33ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 25 elements located by locator 'div.total' contain text '*'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#included-fees-message> text to contain: \"Total includes taxes and insurance. Car hire company’s supplemental charges may apply. Details of mandatory or optional supplementary charges (which may include, but are not limited to charges for refueling, additional drivers, age-related driver surcharges, excess waivers, one way supplements or child seats) are set out in the car supplier’s rules and restrictions.\" - condition was met in 24ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 35ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-priceRanges> text to contain: \"Total prices\" - condition was met in 17ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-vendor> text to contain: \"Car hire company\" - condition was met in 17ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.fullName' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card-inner div.flex-figure figure img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.vendor-image-box>img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.attributes-summary' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.pickup-location.location' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.book-container>a' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.total' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.top-messages.confidenceMsgInFlex' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\"",
+                "stackTrace": "    at Object.verifyAllConfidenceMessages (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/common/pageHeaderComponent.js:12:29)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/searchListPage.js:159:35)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/custom-commands/getNumberOfElements.js:15:18)",
+                "fullMsg": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Free Cancellation'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"Free cancellation up to 6 hours before pick-up\"\u001b[0m",
+                "failure": "Expected \"contain 'Free Cancellation'\" but got: \"Free cancellation up to 6 hours before pick-up\""
+              }
+            ],
+            "timeMs": 69127,
+            "time": "69.13"
+          }
+        },
+        "skipped": [
+          "Select A Single Car Rental Company Filter"
+        ],
+        "time": "69.13",
+        "timestamp": "Tue, 03 Oct 2017 04:57:41 GMT",
+        "group": "scenarioTests",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/GuestUserOneWayOffAirportToAirport": {
+        "completed": {
+          "Search For Car From Off Airport To Airport": {
+            "passed": 18,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 8621 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Hire Cars and Car Hire in Redmond from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to match: \"/\\d* Cars in Redmond from .*\\d*/\" - condition was met in 49ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#googleMapContainer> to be visible - condition was met in 23ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#filter-panel div #carMapContainer a #googleMapContainer div .mapIconOverlay> to be visible - condition was met in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 25 elements located by locator 'div.total' contain text '*'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#included-fees-message> text to contain: \"Total includes taxes and insurance. Car hire company’s supplemental charges may apply. Details of mandatory or optional supplementary charges (which may include, but are not limited to charges for refueling, additional drivers, age-related driver surcharges, excess waivers, one way supplements or child seats) are set out in the car supplier’s rules and restrictions.\" - condition was met in 23ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 18ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-priceRanges> text to contain: \"Total prices\" - condition was met in 18ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-vendor> text to contain: \"Car hire company\" - condition was met in 23ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.fullName' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card-inner div.flex-figure figure img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.vendor-image-box>img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.attributes-summary' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.pickup-location.location' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.book-container>a' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.total' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.top-messages.confidenceMsgInFlex' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\"",
+                "stackTrace": "    at Object.verifyAllConfidenceMessages (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/common/pageHeaderComponent.js:12:29)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/searchListPage.js:159:35)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/custom-commands/getNumberOfElements.js:15:18)",
+                "fullMsg": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Free Cancellation'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"Free cancellation up to 6 hours before pick-up\"\u001b[0m",
+                "failure": "Expected \"contain 'Free Cancellation'\" but got: \"Free cancellation up to 6 hours before pick-up\""
+              }
+            ],
+            "timeMs": 71361,
+            "time": "71.36"
+          }
+        },
+        "skipped": [],
+        "time": "71.36",
+        "timestamp": "Tue, 03 Oct 2017 05:01:36 GMT",
+        "group": "scenarioTests",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/GuestUserOneWayOffAirportToAnotherOffAirport": {
+        "completed": {
+          "Search For Car From Airport To Off Airport": {
+            "passed": 18,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 202 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Hire Cars and Car Hire in Bellevue from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to match: \"/\\d* Cars in Bellevue from .*\\d*/\" - condition was met in 46ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#googleMapContainer> to be visible - condition was met in 26ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#filter-panel div #carMapContainer a #googleMapContainer div .mapIconOverlay> to be visible - condition was met in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 25 elements located by locator 'div.total' contain text '*'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#included-fees-message> text to contain: \"Total includes taxes and insurance. Car hire company’s supplemental charges may apply. Details of mandatory or optional supplementary charges (which may include, but are not limited to charges for refueling, additional drivers, age-related driver surcharges, excess waivers, one way supplements or child seats) are set out in the car supplier’s rules and restrictions.\" - condition was met in 24ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-priceRanges> text to contain: \"Total prices\" - condition was met in 18ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-vendor> text to contain: \"Car hire company\" - condition was met in 19ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.fullName' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card-inner div.flex-figure figure img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.vendor-image-box>img' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.attributes-summary' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.pickup-location.location' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.book-container>a' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.total' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.top-messages.confidenceMsgInFlex' are 25.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\"",
+                "stackTrace": "    at Object.verifyAllConfidenceMessages (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/common/pageHeaderComponent.js:12:29)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/searchListPage.js:159:35)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/custom-commands/getNumberOfElements.js:15:18)",
+                "fullMsg": "Expected element <.free-cancellation-messaging> text to contain: \"Free Cancellation\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Free Cancellation'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"Free cancellation up to 6 hours before pick-up\"\u001b[0m",
+                "failure": "Expected \"contain 'Free Cancellation'\" but got: \"Free cancellation up to 6 hours before pick-up\""
+              }
+            ],
+            "timeMs": 70078,
+            "time": "70.08"
+          }
+        },
+        "skipped": [
+          "Select A Search Nearby Filter and Verify the offer cards have pick up location within the given distance"
+        ],
+        "time": "70.08",
+        "timestamp": "Tue, 03 Oct 2017 05:05:33 GMT",
+        "group": "scenarioTests",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/LoggedInUserAirportRoundTrip": {
+        "completed": {
+          "Navigate to sign in page and login": {
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/signInPage.js:27:25)",
+                "fullMsg": "Expected element <body> text to contain: \"Status: SUCCESS\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Status: SUCCESS'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\"\u001b[0m",
+                "failure": "Expected \"contain 'Status: SUCCESS'\" but got: \"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\""
+              }
+            ],
+            "timeMs": 66074,
+            "time": "66.07"
+          }
+        },
+        "skipped": [
+          "Search For Car From Airport To Airport"
+        ],
+        "time": "66.07",
+        "timestamp": "Tue, 03 Oct 2017 05:09:06 GMT",
+        "group": "scenarioTests",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/LoggedInUserOffAirportRoundTrip": {
+        "completed": {
+          "Navigate to sign in page and login": {
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/signInPage.js:27:25)",
+                "fullMsg": "Expected element <body> text to contain: \"Status: SUCCESS\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Status: SUCCESS'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\"\u001b[0m",
+                "failure": "Expected \"contain 'Status: SUCCESS'\" but got: \"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\""
+              }
+            ],
+            "timeMs": 63467,
+            "time": "63.47"
+          }
+        },
+        "skipped": [
+          "Search For Car From Off Airport to same Off Airport"
+        ],
+        "time": "63.47",
+        "timestamp": "Tue, 03 Oct 2017 05:12:31 GMT",
+        "group": "scenarioTests",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/LoggedInUserOneWayAirportToAnotherAirport": {
+        "completed": {
+          "Navigate to sign in page and login": {
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/signInPage.js:27:25)",
+                "fullMsg": "Expected element <body> text to contain: \"Status: SUCCESS\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Status: SUCCESS'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\"\u001b[0m",
+                "failure": "Expected \"contain 'Status: SUCCESS'\" but got: \"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\""
+              }
+            ],
+            "timeMs": 63172,
+            "time": "63.17"
+          }
+        },
+        "skipped": [
+          "Search For Car From One Airport To Another Airport"
+        ],
+        "time": "63.17",
+        "timestamp": "Tue, 03 Oct 2017 05:15:52 GMT",
+        "group": "scenarioTests",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/LoggedInUserOneWayAirportToOffAirport": {
+        "completed": {
+          "Navigate to sign in page and login": {
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/signInPage.js:27:25)",
+                "fullMsg": "Expected element <body> text to contain: \"Status: SUCCESS\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Status: SUCCESS'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\"\u001b[0m",
+                "failure": "Expected \"contain 'Status: SUCCESS'\" but got: \"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\""
+              }
+            ],
+            "timeMs": 63844,
+            "time": "63.84"
+          }
+        },
+        "skipped": [
+          "Search For Car From Airport To Off Airport",
+          "Select A Single Car Rental Company Filter"
+        ],
+        "time": "63.84",
+        "timestamp": "Tue, 03 Oct 2017 05:19:15 GMT",
+        "group": "scenarioTests",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/LoggedInUserOneWayOffAirportToAirport": {
+        "completed": {
+          "Navigate to sign in page and login": {
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/signInPage.js:27:25)",
+                "fullMsg": "Expected element <body> text to contain: \"Status: SUCCESS\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Status: SUCCESS'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\"\u001b[0m",
+                "failure": "Expected \"contain 'Status: SUCCESS'\" but got: \"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\""
+              }
+            ],
+            "timeMs": 63355,
+            "time": "63.35"
+          }
+        },
+        "skipped": [
+          "Search For Car From Off Airport To Airport"
+        ],
+        "time": "63.35",
+        "timestamp": "Tue, 03 Oct 2017 05:22:37 GMT",
+        "group": "scenarioTests",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      },
+      "non-stubbed/scenarioTests/LoggedInUserOneWayOffAirportToAnotherOffAirport": {
+        "completed": {
+          "Navigate to sign in page and login": {
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/signInPage.js:27:25)",
+                "fullMsg": "Expected element <body> text to contain: \"Status: SUCCESS\" \u001b[1;37m - expected \u001b[0;32m\"contain 'Status: SUCCESS'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\"\u001b[0m",
+                "failure": "Expected \"contain 'Status: SUCCESS'\" but got: \"You have 1 notification\n1\n\n\nAccount\n\nMy Lists\n  Manage Trips\nSupport\n This site uses cookies\nFor customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.\nHome\nHotels\nFlights\nFlight + Hotel\nCar\nTrains\nHoliday Rentals\nThings to Do\nLast Minute\nBeach\nDeals\nDiscover\nRewards\nMore\nBeginning of main content\n\nPage not found\nWe apologize, but we cannot find the page you’re looking for.\nPlease start your search from Expedia’s homepage.\nPrivacy Policy\nOpens in a new window.\nTerms of Use\nOpens in a new window.\""
+              }
+            ],
+            "timeMs": 64640,
+            "time": "64.64"
+          }
+        },
+        "skipped": [
+          "Search For Car From Airport To Off Airport",
+          "Select A Search Nearby Filter and Verify the offer cards have pick up location within the given distance"
+        ],
+        "time": "64.64",
+        "timestamp": "Tue, 03 Oct 2017 05:25:56 GMT",
+        "group": "scenarioTests",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 99,
+    "environment": "UK"
+  },
+  "locale": "en_GB",
+  "group": "scenarioTest-UK"
+}

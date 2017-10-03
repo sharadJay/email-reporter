@@ -1,0 +1,138 @@
+{
+  "results": {
+    "passed": 15,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 15,
+    "errmessages": [],
+    "modules": {
+      "stubbed/dropOffPage/DropOffPageShowOnlyCarsWithUnlimitedMileage": {
+        "completed": {
+          "Drop off page filters offers according to param showOnlyCarsWithUnlimitedMileage is true": {
+            "passed": 7,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 4825 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div>li' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.base .price-value> text to contain: \"$42\" - condition was met in 360ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.total .price-value> text to contain: \"$126\" - condition was met in 346ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .transmission> text to contain: \"Automatic\" - condition was met in 232ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.images>img.vendor-image> to have attribute \"src\" contain: \"//images.trvl-media.com/cars/logos/SX.png\" - condition was met in 142ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.location > h3 > span> text to contain: \"13.54\" - condition was met in 289ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 19180,
+            "time": "19.18"
+          },
+          "Drop off page filters offers according to param showOnlyCarsWithUnlimitedMileage is false": {
+            "passed": 8,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#dropoff-search-results> was present after 1633 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div>li' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.top-messages.confidenceMsgInFlex> to be visible - condition was met in 449ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.base .price-value> text to contain: \"$42\" - condition was met in 378ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.total .price-value> text to contain: \"$126\" - condition was met in 4393ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .transmission> text to contain: \"Automatic\" - condition was met in 3712ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.images>img.vendor-image> to have attribute \"src\" contain: \"//images.trvl-media.com/cars/logos/SX.png\" - condition was met in 117ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.location > h3 > span> text to contain: \"13.54\" - condition was met in 221ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 21870,
+            "time": "21.87"
+          }
+        },
+        "skipped": [],
+        "time": "41.05",
+        "timestamp": "Tue, 03 Oct 2017 04:43:18 GMT",
+        "group": "dropOffPage",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 15,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

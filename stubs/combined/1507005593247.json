@@ -1,0 +1,118 @@
+{
+  "results": {
+    "passed": 10,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 10,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/MIP": {
+        "completed": {
+          "Turn Off Abacus 11194,12117 And Turn On Abacus 10387": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Abacus 11553 is set to 0",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 1189,
+            "time": "1.189"
+          },
+          "Search for a car airport roundtrip and verify MIP tag is not shown on infosite": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4385 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 82 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Economy from Thrifty at $44 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.skinny-banner.green> to not be present - element was not found in 162ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 17285,
+            "time": "17.29"
+          },
+          "Turn on experiment and verify MIP tag and banner are shown on infosite page": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 11553 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.site-content> was present after 2126 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.skinny-banner.green> to be present - element was present in 41ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.skinny-banner.green> text to contain: \"Exclusive offer \" - condition was met in 327ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 17919,
+            "time": "17.92"
+          }
+        },
+        "skipped": [],
+        "time": "36.39",
+        "timestamp": "Tue, 03 Oct 2017 04:39:01 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 10,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

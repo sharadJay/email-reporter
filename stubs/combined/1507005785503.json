@@ -1,0 +1,300 @@
+{
+  "results": {
+    "passed": 37,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 37,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/AirportToOffairport": {
+        "completed": {
+          "Search For Car From Airport To Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 1925 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 9167,
+            "time": "9.167"
+          },
+          "Verify attributes displayed on offer Card": {
+            "passed": 13,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <div.total> text to contain: \"$90\" - condition was met in 118ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.full-price> text to contain: \"$28\" - condition was met in 90ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='mileage']> text to contain: \"Unlimited mileage\" - condition was met in 124ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='transmission']> text to contain: \"Automatic transmission\" - condition was met in 119ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-model> text to equal: \"Toyota Yaris or similar\" - condition was met in 177ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.fullName> text to contain: \"Economy\" - condition was met in 122ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified undefined elements located by locator '.attributes-summary>.air-conditioning' presence is 'true'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.door-attr span:nth-child(3)> text to equal: \"2\" - condition was met in 74ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.passengers-attr span:nth-child(3)> text to equal: \"5\" - condition was met in 83ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pickup-location div.shuttle-location-info> text to equal: \"Shuttle to counter and car\" - condition was met in 105ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.location.dropoff-location> to be present - element was present in 20ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.dropoff-location div.location-info.address> text to equal: \"3150 South 160Th Street, Seattle, Washington, USA\" - condition was met in 39ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.dropoff-location span .distance> text to contain: \"11.42\" - condition was met in 73ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 1303,
+            "time": "1.303"
+          },
+          "Click on Book button for first offer card and Verify the drop off page is displayed": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-results> was visible after 899 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#dropoff-search-results> to be visible - condition was met in 158ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 16527,
+            "time": "16.53"
+          },
+          "Verify offer attributes displayed on drop off page ": {
+            "passed": 9,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <.vehicle-class> text to contain: \"Economy\" - condition was met in 375ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.vehicle-make> text to equal: \"Toyota Yaris or similar\" - condition was met in 207ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .passengers> text to contain: \"5\" - condition was met in 532ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .luggage> text to contain: \"1\" - condition was met in 419ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified undefined elements located by locator '.features .air-conditioning' presence is 'true'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.features .transmission> text to contain: \"Automatic\" - condition was met in 277ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.base .price-value> text to contain: \"$28\" - condition was met in 176ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.total .price-value> text to contain: \"$90\" - condition was met in 164ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.location>h3.distance> text to contain: \"11.42\" - condition was met in 170ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 2401,
+            "time": "2.401"
+          },
+          "Click on first available car": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified buttons on page Dropoff Page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verifying that the Dropoff Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Dropoff Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 158 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 14668,
+            "time": "14.67"
+          }
+        },
+        "skipped": [],
+        "time": "44.07",
+        "timestamp": "Tue, 03 Oct 2017 04:39:03 GMT",
+        "group": "Scenario",
+        "tests": 5,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 37,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

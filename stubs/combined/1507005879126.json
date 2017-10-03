@@ -1,0 +1,80 @@
+{
+  "results": {
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 7,
+    "errmessages": [],
+    "modules": {
+      "stubbed/metaSearch/MetaOfferWithIncreasedPrice": {
+        "completed": {
+          "Find the product info of the first available car and Search cars with meta offer and with dropped price using it": {
+            "passed": 7,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 3078 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#metaWarning> to not be present - element was not found in 678ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.flex-card.flex-tile.offer-card> to have attribute \"metaoffer\" - attribute was present in 168ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#price-change-info>span> text to contain: \"Price has increased $10.00\" - condition was met in 200ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#price-change-info>img> to have attribute \"src\" contain: \"up-36px.png\" - condition was met in 123ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.meta-offer-flex> to be visible - condition was met in 187ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.meta-offer-flex> text to contain: \"You picked this car\" - condition was met in 177ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 19057,
+            "time": "19.06"
+          }
+        },
+        "skipped": [],
+        "time": "19.06",
+        "timestamp": "Tue, 03 Oct 2017 04:43:57 GMT",
+        "group": "metaSearch",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 7,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

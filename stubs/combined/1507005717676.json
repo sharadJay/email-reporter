@@ -1,0 +1,106 @@
+{
+  "results": {
+    "passed": 8,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 8,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/StickyReserveButton": {
+        "completed": {
+          "Turn Off Abacus 11194 And Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 2",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 913,
+            "time": "0.9130"
+          },
+          "Verify infosite page does not show sticky reserve button": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 3907 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 29 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Special from Alamo at $48 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.sticky-reserve-button a> to not be present - element was not found in 71ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18098,
+            "time": "18.10"
+          },
+          "Turn on experiment and verify sticky reserve button is shown on infosite page": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 12394 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.site-content> was present after 497 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.sticky-reserve-button a> to be present - element was present in 47ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 12325,
+            "time": "12.32"
+          }
+        },
+        "skipped": [],
+        "time": "31.34",
+        "timestamp": "Tue, 03 Oct 2017 04:39:01 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 8,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

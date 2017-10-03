@@ -1,0 +1,78 @@
+{
+  "results": {
+    "passed": 8,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 9,
+    "errmessages": [],
+    "modules": {
+      "stubbed/storefrontValidation/VendorCDCodeIsSelectedFromStoreFrontPage": {
+        "completed": {
+          "Search For Car From Airport To Airport with vendor CD Code selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 430 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8120,
+            "time": "8.120"
+          },
+          "Verify the selected Vendor Filter is applied": {
+            "passed": 2,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified 15 elements located by locator '.vendor-image-box>img' have attribute 'alt' contatining value 'budget'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 15 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'budget'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"15 Cars at Seattle airport from $298\"",
+                "stackTrace": "    at Object.Verify the selected Vendor Filter is applied (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/storefrontValidation/VendorCDCodeIsSelectedFromStoreFrontPage.js:44:44)",
+                "fullMsg": "Expected element <h1.section-header-main>div> text to equal: \"15 Cars at Seattle airport from $298\" \u001b[1;37m - expected \u001b[0;32m\"equal '15 Cars at Seattle airport from $298'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"15 Cars at SEA airport from $298\"\u001b[0m",
+                "failure": "Expected \"equal '15 Cars at Seattle airport from $298'\" but got: \"15 Cars at SEA airport from $298\""
+              }
+            ],
+            "timeMs": 60503,
+            "time": "60.50"
+          }
+        },
+        "skipped": [],
+        "time": "68.62",
+        "timestamp": "Tue, 03 Oct 2017 04:49:29 GMT",
+        "group": "storefrontValidation",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 9,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

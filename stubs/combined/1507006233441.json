@@ -1,0 +1,88 @@
+{
+  "results": {
+    "passed": 10,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 11,
+    "errmessages": [],
+    "modules": {
+      "stubbed/sortBarSection/sortByPrice/TestSortByPrice": {
+        "completed": {
+          "Turn off Abacus 14684": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 14684 is set to 0",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 427,
+            "time": "0.4270"
+          },
+          "Search For Car From Airport To Airport": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 535 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8446,
+            "time": "8.446"
+          },
+          "SortByPrice Is Visible in SortBar section": {
+            "passed": 1,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#offer-sort-bar> was visible after 36 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#offer-sort-bar li>button[data-opt-group='Price']> to be visible - element was not found",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/sortBarSection/sortByPrice/TestSortByPrice.js:33:27)",
+                "fullMsg": "Expected element <#offer-sort-bar li>button[data-opt-group='Price']> to be visible - element was not found \u001b[1;37m - expected \u001b[0;32m\"visible\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"not found\"\u001b[0m",
+                "failure": "Expected \"visible\" but got: \"not found\""
+              }
+            ],
+            "timeMs": 60307,
+            "time": "60.31"
+          }
+        },
+        "skipped": [],
+        "time": "69.18",
+        "timestamp": "Tue, 03 Oct 2017 04:49:17 GMT",
+        "group": "sortByPrice",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 11,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

@@ -1,0 +1,102 @@
+{
+  "results": {
+    "passed": 9,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 9,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/testConfidenceMessages": {
+        "completed": {
+          "Turn Off Abacus 11194 And Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 626,
+            "time": "0.6260"
+          },
+          "Verify Confidence message section is visible": {
+            "passed": 8,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 3044 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.confidence-container .top-messages> to be visible - condition was met in 4460ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.book-now-pay-later-messaging> to be visible - condition was met in 147ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.book-now-pay-later-messaging> text to equal: \"Reserve now, pay later\" - condition was met in 318ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> to be visible - condition was met in 174ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.free-cancellation-messaging> text to equal: \"Free Cancellation\" - condition was met in 216ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.earn-rewards-messaging> to be visible - condition was met in 200ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.earn-rewards-messaging> text to equal: \"Earn Expedia+ points\" - condition was met in 185ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20295,
+            "time": "20.30"
+          }
+        },
+        "skipped": [],
+        "time": "20.92",
+        "timestamp": "Tue, 03 Oct 2017 04:39:02 GMT",
+        "group": "Infosite",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 9,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

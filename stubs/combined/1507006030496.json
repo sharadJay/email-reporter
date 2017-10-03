@@ -1,0 +1,72 @@
+{
+  "results": {
+    "passed": 5,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 6,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/testMileage": {
+        "completed": {
+          "Turn Off Abacus 11194 And Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 465,
+            "time": "0.4650"
+          },
+          "Verify Mileage message is unlimited": {
+            "passed": 2,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 2627 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mileage-value> to be visible - condition was met in 212ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.mileage-value .full-description> text to equal: \"Unlimited mileage\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/Infosite/testMileage.js:21:42)",
+                "fullMsg": "Expected element <.mileage-value .full-description> text to equal: \"Unlimited mileage\" \u001b[1;37m - expected \u001b[0;32m\"equal 'Unlimited mileage'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"\"\u001b[0m",
+                "failure": "Expected \"equal 'Unlimited mileage'\" but got: \"\""
+              }
+            ],
+            "timeMs": 71748,
+            "time": "71.75"
+          }
+        },
+        "skipped": [],
+        "time": "72.21",
+        "timestamp": "Tue, 03 Oct 2017 04:45:47 GMT",
+        "group": "Infosite",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 6,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

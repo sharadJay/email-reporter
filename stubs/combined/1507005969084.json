@@ -1,0 +1,68 @@
+{
+  "results": {
+    "passed": 5,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 5,
+    "errmessages": [],
+    "modules": {
+      "stubbed/metaSearch/MetaOfferInvalidSearchParams": {
+        "completed": {
+          "Meta search with invalid product ID": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 6117 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#metaWarning> to be visible - condition was met in 100ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#metaWarning>.alert-title> text to contain: \"We found more car deals for you!\" - condition was met in 44ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#metaWarning>.alert-message> text to contain: \"The car rental you selected is no longer available, so we found the next best offers.\" - condition was met in 31ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 12366,
+            "time": "12.37"
+          }
+        },
+        "skipped": [],
+        "time": "12.37",
+        "timestamp": "Tue, 03 Oct 2017 04:45:44 GMT",
+        "group": "metaSearch",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 5,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

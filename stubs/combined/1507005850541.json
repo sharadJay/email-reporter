@@ -1,0 +1,208 @@
+{
+  "results": {
+    "passed": 25,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 25,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Scenario/OffairportRoundtrip": {
+        "completed": {
+          "Search For Car From Off-Airport To Off-Airport": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 223 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals in Redmond from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 21016,
+            "time": "21.02"
+          },
+          "Verify attributes displayed on offer Card": {
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Passed [ok]: true ok",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.total> text to contain: \"$139\" - condition was met in 186ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.full-price> text to contain: \"$23\" - condition was met in 94ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='mileage']> text to contain: \"Unlimited mileage\" - condition was met in 228ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.offer-attributes *[data-name='transmission']> text to contain: \"Automatic transmission\" - condition was met in 171ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-model> text to equal: \"Nissan Versa | Chevy Sonic or similar\" - condition was met in 111ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.fullName> text to contain: \"Compact\" - condition was met in 134ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified undefined elements located by locator '.attributes-summary>.air-conditioning' presence is 'true'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.door-attr span:nth-child(3)> text to equal: \"4\" - condition was met in 86ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.attribute.passengers-attr span:nth-child(3)> text to equal: \"5\" - condition was met in 88ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pickup-location div.location-info.address> text to equal: \"1480 Nw Gilman Blvd Ste 1, Issaquah, Washington, USA\" - condition was met in 117ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pickup-location.location> text to contain: \"8.86\" - condition was met in 603ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.location.dropoff-location> to be present - element was present in 54ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.dropoff-location div.location-info.address> text to equal: \"1480 Nw Gilman Blvd Ste 1, Issaquah, Washington, USA\" - condition was met in 249ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.dropoff-location span .distance> text to contain: \"8.86\" - condition was met in 153ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.pickup-location div.location-info.address> text to equal: \"1480 Nw Gilman Blvd Ste 1, Issaquah, Washington, USA\" - condition was met in 150ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 2541,
+            "time": "2.541"
+          },
+          "Click on first available car": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 121 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 33ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 25095,
+            "time": "25.09"
+          }
+        },
+        "skipped": [],
+        "time": "48.65",
+        "timestamp": "Tue, 03 Oct 2017 04:40:49 GMT",
+        "group": "Scenario",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 25,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

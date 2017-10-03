@@ -1,0 +1,72 @@
+{
+  "results": {
+    "passed": 5,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 6,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/testTransmission": {
+        "completed": {
+          "Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 467,
+            "time": "0.4670"
+          },
+          "Verify automatic transmission is displayed": {
+            "passed": 2,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 570 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.transmission-value> to be visible - condition was met in 43ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.transmission-value .full-description> text to equal: \"Automatic transmission\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/Infosite/testTransmission.js:22:42)",
+                "fullMsg": "Expected element <.transmission-value .full-description> text to equal: \"Automatic transmission\" \u001b[1;37m - expected \u001b[0;32m\"equal 'Automatic transmission'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"\"\u001b[0m",
+                "failure": "Expected \"equal 'Automatic transmission'\" but got: \"\""
+              }
+            ],
+            "timeMs": 69938,
+            "time": "69.94"
+          }
+        },
+        "skipped": [],
+        "time": "70.41",
+        "timestamp": "Tue, 03 Oct 2017 04:45:37 GMT",
+        "group": "Infosite",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 6,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

@@ -1,0 +1,92 @@
+{
+  "results": {
+    "passed": 9,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 9,
+    "errmessages": [],
+    "modules": {
+      "stubbed/swpCars/ToggleNotDisplayedForNonMIPOffers": {
+        "completed": {
+          "Verify SwP Toggle does not appear on Cars Details Page for Non-MIP Offer": {
+            "passed": 9,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 14272 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <body> text to contain: \"Status: SUCCESS\" - condition was met in 48ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#search-results> was present after 2805 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verifying that the Search Page url does not contain undefined",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Search Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified buttons on page Search page does not have NaN,undefined or null in href attribute",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified page content Infosite Page does not have NaN,undefined or null in html body",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#main-content> was visible after 91 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.car-details> to be present - element was present in 3473ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 26696,
+            "time": "26.70"
+          }
+        },
+        "skipped": [],
+        "time": "26.70",
+        "timestamp": "Tue, 03 Oct 2017 04:47:16 GMT",
+        "group": "swpCars",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 9,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

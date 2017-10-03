@@ -1,0 +1,406 @@
+{
+  "results": {
+    "passed": 48,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 48,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/Accessories": {
+        "completed": {
+          "Turn Off Abacus 11194 And Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 761,
+            "time": "0.7610"
+          },
+          "Verify accessories are not selected on infosite when no param is passed": {
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4045 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 59 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Special from Alamo at $48 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_SkiRack> to be present - element was present in 35ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#SkiRack> to not be selected - condition was met in 110ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_InfantChildSeat> to be present - element was present in 35ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#InfantChildSeat> to not be selected - condition was met in 134ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_ToddlerChildSeat> to be present - element was present in 32ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#ToddlerChildSeat> to not be selected - condition was met in 74ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_SnowChains> to be present - element was present in 36ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#SnowChains> to not be selected - condition was met in 68ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_NavigationalSystem> to be present - element was present in 24ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#NavigationalSystem> to not be selected - condition was met in 70ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_AdditionalDriver> to be present - element was present in 30ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#AdditionalDriver> to not be selected - condition was met in 69ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#handicapControls> to be present - element was present in 28ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 17795,
+            "time": "17.80"
+          },
+          "Verify skirack is selected on infosite when passed in URL Param": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 6010 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_SkiRack> to be present - element was present in 110ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#SkiRack> to be selected - condition was met in 96ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 13818,
+            "time": "13.82"
+          },
+          "Verify infant seat is selected on infosite when passed in URL Param": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4884 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_InfantChildSeat> to be present - element was present in 1614ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#InfantChildSeat> to be selected - condition was met in 299ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.price-summary .details-reserve-button-container a.btn> to have attribute \"href\" contain: \"InfantChildSeat\" - condition was met in 52ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 20452,
+            "time": "20.45"
+          },
+          "Verify toddler seat is selected on infosite when passed in URL Param": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 54 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_ToddlerChildSeat> to be present - element was present in 37ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#ToddlerChildSeat> to be selected - condition was met in 59ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.price-summary .details-reserve-button-container a.btn> to have attribute \"href\" contain: \"ToddlerChildSeat\" - condition was met in 118ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 15430,
+            "time": "15.43"
+          },
+          "Verify snowchains is selected on infosite when passed in URL Param": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4899 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_SnowChains> to be present - element was present in 63ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#SnowChains> to be selected - condition was met in 109ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.price-summary .details-reserve-button-container a.btn> to have attribute \"href\" contain: \"SnowChains\" - condition was met in 97ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 11569,
+            "time": "11.57"
+          },
+          "Verify navigation is selected on infosite when passed in URL Param": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 8393 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#acc_NavigationalSystem> to be present - element was present in 1316ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#NavigationalSystem> to be selected - condition was met in 150ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.price-summary .details-reserve-button-container a.btn> to have attribute \"href\" contain: \"NavigationalSystem\" - condition was met in 134ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18963,
+            "time": "18.96"
+          },
+          "Verify left hand control is selected on infosite when passed in URL Param": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 3677 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 44 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Special from Alamo at $48 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#handicapControls> to be present - element was present in 28ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if value of <#handicapControls> equals: \"2\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.price-summary .details-reserve-button-container a.btn> to have attribute \"href\" contain: \"LeftHandControl\" - condition was met in 53ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 9186,
+            "time": "9.186"
+          },
+          "Verify right hand control is selected on infosite when passed in URL Param": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4188 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 31 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Special from Alamo at $48 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#handicapControls> to be present - element was present in 37ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if value of <#handicapControls> equals: \"3\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.price-summary .details-reserve-button-container a.btn> to have attribute \"href\" contain: \"RightHandControl\" - condition was met in 59ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 15951,
+            "time": "15.95"
+          }
+        },
+        "skipped": [],
+        "time": "123.9",
+        "timestamp": "Tue, 03 Oct 2017 04:39:00 GMT",
+        "group": "Infosite",
+        "tests": 9,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 48,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

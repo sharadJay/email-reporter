@@ -1,0 +1,382 @@
+{
+  "results": {
+    "passed": 54,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 54,
+    "errmessages": [],
+    "modules": {
+      "stubbed/filterSection/carType/TestUserIsAbleToFilterCarOffersBasedOnSingleCarType": {
+        "completed": {
+          "Search For Car": {
+            "passed": 40,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 346 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 5.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 106 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-carClass> was present after 30 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 92ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='carClass']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 12 elements located by locator 'div:not(.disabled)>span.inline-label.lowest-price' contain text '$'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 120 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 187ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 72 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-economy']> was visible after 142 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='economy']> text to contain: \"Economy\" - condition was met in 124ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='economy'] .lowest-price> text to contain: \"$27\" - condition was met in 53ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 35 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 126ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 48 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-compact']> was visible after 134 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='compact']> text to contain: \"Compact\" - condition was met in 129ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='compact'] .lowest-price> text to contain: \"$28\" - condition was met in 38ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 47 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 233ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 70 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-midsize']> was visible after 260 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='midsize']> text to contain: \"Midsize\" - condition was met in 75ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='midsize'] .lowest-price> text to contain: \"$34\" - condition was met in 32ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 48 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 133ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 94 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-standard']> was visible after 97 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='standard']> text to contain: \"Standard\" - condition was met in 90ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='standard'] .lowest-price> text to contain: \"$37\" - condition was met in 37ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 37 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 176ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 57 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-fullSize']> was visible after 40 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='fullSize']> text to contain: \"Full-size\" - condition was met in 96ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='fullSize'] .lowest-price> text to contain: \"$37\" - condition was met in 52ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 36 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 129ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 21260,
+            "time": "21.26"
+          },
+          "Car offer is displayed for selected given type": {
+            "passed": 8,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 43 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-economy']> was visible after 245 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input[type='checkbox'][name='carClass'][id='carClass-economy']> to be selected - condition was met in 133ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 33 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 127ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.fullName' have text 'Economy'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'Economy'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"1 Car at SEA airport from $27\" - condition was met in 57ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8311,
+            "time": "8.311"
+          },
+          "Uncheck car type selected in previous step": {
+            "passed": 6,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 51 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-economy']> was visible after 160 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input[type='checkbox'][name='carClass'][id='carClass-economy']> to not be selected - condition was met in 128ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"5 Cars at SEA airport from $27\" - condition was met in 82ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 41 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 127ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 3321,
+            "time": "3.321"
+          }
+        },
+        "skipped": [],
+        "time": "32.89",
+        "timestamp": "Tue, 03 Oct 2017 04:44:53 GMT",
+        "group": "carType",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 54,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

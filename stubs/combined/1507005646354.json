@@ -1,0 +1,148 @@
+{
+  "results": {
+    "passed": 15,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 15,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/EquipmentListAccordion": {
+        "completed": {
+          "Turn Off Abacus 11194 And Turn On Abacus 10387": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Abacus 12526 is set to 0",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 1450,
+            "time": "1.450"
+          },
+          "Navigate to infosite and verify accessories should not be hidden": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4237 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.price-summary .details-reserve-button-container a.btn> was present after 15 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Details for Special from Alamo at $48 total'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <a.link-with-pointer.expand-collapse-toggle-text> to not be present - element was not found in 22ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.hide-accessory> to not be present - element was not found in 45ms.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 18047,
+            "time": "18.05"
+          },
+          "Navigate to infosite and verify only one accessory is displayed and rest are hidden": {
+            "passed": 8,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 12526 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <.site-content> was present after 5539 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <a.link-with-pointer.expand-collapse-toggle-text> to be present - element was present in 82ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <a.link-with-pointer.expand-collapse-toggle-text> text to equal: \"Show more accessories\" - condition was met in 211ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.accessory-row.ember-view:not('.hide-accessory')' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <a.link-with-pointer.expand-collapse-toggle-text> to be present - element was present in 554ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <a.link-with-pointer.expand-collapse-toggle-text> text to equal: \"Show less accessories\" - condition was met in 280ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by '.accessory-row.ember-view:not('.hide-accessory')' are 7.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 15826,
+            "time": "15.83"
+          }
+        },
+        "skipped": [],
+        "time": "35.32",
+        "timestamp": "Tue, 03 Oct 2017 04:39:00 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 15,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

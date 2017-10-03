@@ -1,0 +1,144 @@
+{
+  "results": {
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 11,
+    "errmessages": [],
+    "modules": {
+      "stubbed/storefrontValidation/VendorCDCodeIsSelectedFromStoreFrontPage": {
+        "completed": {
+          "Search For Car From Airport To Airport with vendor CD Code selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 718 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 19307,
+            "time": "19.31"
+          },
+          "Verify the selected Vendor Filter is applied": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified 15 elements located by locator '.vendor-image-box>img' have attribute 'alt' contatining value 'budget'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 15 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'budget'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"15 Cars at Seattle airport from $298\" - condition was met in 82ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 1748,
+            "time": "1.748"
+          },
+          "Verify that the coupon code applied information is displayed on the page": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.alert-success h5.alert-message> was visible after 145 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.alert-success h5.alert-message' contain text 'Congratulations, we found the following discounted rates for your preferred company.'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 274,
+            "time": "0.2740"
+          },
+          "Search For Car From Airport To Airport with vendor invalid CD Code selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 139 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 24712,
+            "time": "24.71"
+          },
+          "Verify that the invalid coupon code information is displayed on the page": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.alert-warn .alert-message> was visible after 238 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.alert-warn .alert-message' contain text 'We didn't find any results for this discount code, but we did find other rates for your preferred company.'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 610,
+            "time": "0.6100"
+          }
+        },
+        "skipped": [],
+        "time": "46.65",
+        "timestamp": "Tue, 03 Oct 2017 04:44:45 GMT",
+        "group": "storefrontValidation",
+        "tests": 5,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 11,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

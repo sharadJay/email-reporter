@@ -1,0 +1,72 @@
+{
+  "results": {
+    "passed": 4,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 4,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/handControlDescription": {
+        "completed": {
+          "Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 749,
+            "time": "0.7490"
+          },
+          "Verify hand control description is displayed": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 327 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.hand-controls-description> to be present - element was present in 19ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.hand-controls-description> text to equal: \"For drivers with disability\" - condition was met in 85ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 242040,
+            "time": "242.0"
+          }
+        },
+        "skipped": [],
+        "time": "242.8",
+        "timestamp": "Tue, 03 Oct 2017 04:39:02 GMT",
+        "group": "Infosite",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 4,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

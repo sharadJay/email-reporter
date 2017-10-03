@@ -1,0 +1,50 @@
+{
+  "results": {
+    "passed": 2,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 2,
+    "errmessages": [],
+    "modules": {
+      "stubbed/errorValidations/TestErrorIsDisplayedWhenNorResultsAreReturned": {
+        "completed": {
+          "Search For Car From Airport To Airport when no errors are displayed": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Expected element <.alert-error h5.alert-message> to be visible - condition was met in 245343ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.alert-error h5.alert-message> text to contain: \"Sorry, there are no available cars at this location for your preferred date or time. Please adjust your search and try again.\" - condition was met in 47ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 253261,
+            "time": "253.3"
+          }
+        },
+        "skipped": [],
+        "time": "253.3",
+        "timestamp": "Tue, 03 Oct 2017 04:43:09 GMT",
+        "group": "errorValidations",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 2,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

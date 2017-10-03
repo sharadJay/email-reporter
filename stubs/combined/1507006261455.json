@@ -1,0 +1,366 @@
+{
+  "results": {
+    "passed": 139,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 140,
+    "errmessages": [],
+    "modules": {
+      "stubbed/filterSection/exclusiveOffers/TestUserIsAbleToFilterCarOffersBasedOnExclusiveFilters": {
+        "completed": {
+          "Search For Cars - Exclusive Offers(Null)": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 427 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 3.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 27 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if element <input[type='checkbox']> does not have css class: \"exclusiveOffers\".",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 10463,
+            "time": "10.46"
+          },
+          "Search For Cars - Exclusive Offers(member deals only)": {
+            "passed": 13,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 518 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 25 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-exclusiveOffers> was present after 135 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-exclusiveOffers> text to contain: \"Exclusive offers\" - condition was met in 22ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='exclusiveOffers']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 24 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 128ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 24 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='exclusiveOffers'][id='exclusiveOffers-memberPricing']> was visible after 129 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='memberPricing']> text to contain: \"Member Pricing\" - condition was met in 50ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='memberPricing']> text to contain: \"1\" - condition was met in 54ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8285,
+            "time": "8.285"
+          },
+          "Search For Cars -  Exclusive Offers(bundle deals only)": {
+            "passed": 13,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 533 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 1.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 27 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-exclusiveOffers> was present after 18 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-exclusiveOffers> text to contain: \"Exclusive offers\" - condition was met in 29ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='exclusiveOffers']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 94 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 123ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 25 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='exclusiveOffers'][id='exclusiveOffers-bundleDeal']> was visible after 134 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='bundleDeal']> text to contain: \"Bundle Deal\" - condition was met in 95ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='bundleDeal']> text to contain: \"1\" - condition was met in 56ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8977,
+            "time": "8.977"
+          },
+          "Search For Cars -  Exclusive Offers(bundleDeal and memberPricing)": {
+            "passed": 15,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 4692 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 2.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 43 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-exclusiveOffers> was present after 10 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-exclusiveOffers> text to contain: \"Exclusive offers\" - condition was met in 26ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='exclusiveOffers']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <button.filter-panel-close> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <button.filter-panel-close> to not be visible - condition was met in 222ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 36 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Passed [ok]: 2 ok Verifying number of disabled fileter check box",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <div[data-filter-name='memberPricing']> was visible after 40 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='memberPricing']> text to contain: \"Member Pricing\" - condition was met in 78ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <div[data-filter-name='bundleDeal']> was visible after 46 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='bundleDeal']> text to contain: \"Bundle Deal\" - condition was met in 91ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 8334,
+            "time": "8.334"
+          },
+          "Select Bundle Deals Filter and Verify That CarMIP Offers Are Displayed": {
+            "passed": 1,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#filter-toggle-btn> was visible after 26 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Timed out while waiting for element <input[type='checkbox'][name='exclusiveOffers'][id='exclusiveOffers-bundleDeal']> to be visible for 60000 milliseconds.",
+                "stackTrace": "    at Object.selectCheckboxFilter (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/carSearchList/filterComponent.js:22:14)\n    at Object.Select Bundle Deals Filter and Verify That CarMIP Offers Are Displayed (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/tests/stubbed/filterSection/exclusiveOffers/TestUserIsAbleToFilterCarOffersBasedOnExclusiveFilters.js:77:17)",
+                "fullMsg": "Timed out while waiting for element <input[type='checkbox'][name='exclusiveOffers'][id='exclusiveOffers-bundleDeal']> to be visible for 60000 milliseconds. \u001b[1;37m - expected \u001b[0;32m\"visible\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"not visible\"\u001b[0m",
+                "failure": "Expected \"visible\" but got: \"not visible\""
+              }
+            ],
+            "timeMs": 60536,
+            "time": "60.54"
+          }
+        },
+        "skipped": [],
+        "time": "96.59",
+        "timestamp": "Tue, 03 Oct 2017 04:49:19 GMT",
+        "group": "exclusiveOffers",
+        "tests": 5,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 140,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}

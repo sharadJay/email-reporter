@@ -1,0 +1,238 @@
+{
+  "results": {
+    "passed": 30,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 30,
+    "errmessages": [],
+    "modules": {
+      "stubbed/filterSection/carType/TestUserIsAbleToFilterCarOffersBasedOnSingleCarType": {
+        "completed": {
+          "Search For Car": {
+            "passed": 22,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 6510 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the number of elements located by 'div.flex-card.flex-tile.offer-card' are 5.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-carClass> was present after 67 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-carClass> text to contain: \"Car type\" - condition was met in 194ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='carClass']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 12 elements located by locator 'div:not(.disabled)>span.inline-label.lowest-price' contain text '$'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-economy']> was visible after 114 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='economy']> text to contain: \"Economy\" - condition was met in 328ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='economy'] .lowest-price> text to contain: \"$27\" - condition was met in 149ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-compact']> was visible after 146 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='compact']> text to contain: \"Compact\" - condition was met in 477ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='compact'] .lowest-price> text to contain: \"$28\" - condition was met in 198ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-midsize']> was visible after 226 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='midsize']> text to contain: \"Midsize\" - condition was met in 474ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='midsize'] .lowest-price> text to contain: \"$34\" - condition was met in 212ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-standard']> was visible after 191 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='standard']> text to contain: \"Standard\" - condition was met in 341ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='standard'] .lowest-price> text to contain: \"$37\" - condition was met in 128ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-fullSize']> was visible after 241 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='fullSize']> text to contain: \"Full-size\" - condition was met in 383ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='fullSize'] .lowest-price> text to contain: \"$37\" - condition was met in 160ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 33395,
+            "time": "33.40"
+          },
+          "Car offer is displayed for selected given type": {
+            "passed": 5,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-economy']> was visible after 139 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input[type='checkbox'][name='carClass'][id='carClass-economy']> to be selected - condition was met in 1015ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator '.fullName' have text 'Economy'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'Economy'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"1 Car at Seattle airport from $27\" - condition was met in 177ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 10285,
+            "time": "10.29"
+          },
+          "Uncheck car type selected in previous step": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <input[type='checkbox'][name='carClass'][id='carClass-economy']> was visible after 119 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input[type='checkbox'][name='carClass'][id='carClass-economy']> to not be selected - condition was met in 129ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"5 Cars at Seattle airport from $27\" - condition was met in 712ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 3495,
+            "time": "3.495"
+          }
+        },
+        "skipped": [],
+        "time": "47.17",
+        "timestamp": "Tue, 03 Oct 2017 04:43:16 GMT",
+        "group": "carType",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 30,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

@@ -1,0 +1,62 @@
+{
+  "results": {
+    "passed": 4,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 4,
+    "errmessages": [],
+    "modules": {
+      "stubbed/metaSearch/MetaOfferWithoutPriceChange": {
+        "completed": {
+          "Find the product info of the first available car and Search cars with meta offer and with no price using it": {
+            "passed": 4,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 397 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.flex-card.flex-tile.offer-card> to have attribute \"metaoffer\" - attribute was present in 70ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.meta-offer-flex> to be visible - condition was met in 165ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div.meta-offer-flex> text to contain: \"You picked this car\" - condition was met in 392ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 27250,
+            "time": "27.25"
+          }
+        },
+        "skipped": [],
+        "time": "27.25",
+        "timestamp": "Tue, 03 Oct 2017 04:43:57 GMT",
+        "group": "metaSearch",
+        "tests": 1,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 4,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

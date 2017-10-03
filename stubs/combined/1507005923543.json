@@ -1,0 +1,266 @@
+{
+  "results": {
+    "passed": 33,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 33,
+    "errmessages": [],
+    "modules": {
+      "stubbed/storefrontValidation/VendorIsSelectedFromStoreFrontPage": {
+        "completed": {
+          "Search For Car From Airport To Airport with vendor selected from StoreFront": {
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#search-results> was present after 329 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if the page title contains 'Rental Cars and Car Rentals at Seattle Airport from Expedia'.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 15667,
+            "time": "15.67"
+          },
+          "Filter Section Is Visible For Vendor": {
+            "passed": 25,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#label-vendor> was present after 20 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#label-vendor> text to contain: \"Rental car company\" - condition was met in 84ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Testing if elements located by 'input[type='checkbox'][name='vendor']' are enabled",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 13 elements located by locator 'div:not(.disabled)>span.inline-label.lowest-price' contain text '$'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 84 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZR']> text to contain: \"Dollar\" - condition was met in 241ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZR'] .lowest-price> text to contain: \"$162\" - condition was met in 41ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 85 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='SX']> text to contain: \"Sixt\" - condition was met in 121ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='SX'] .lowest-price> text to contain: \"$263\" - condition was met in 69ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 61 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ET']> text to contain: \"Enterprise\" - condition was met in 146ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ET'] .lowest-price> text to contain: \"$300\" - condition was met in 60ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 103 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZD']> text to contain: \"Budget\" - condition was met in 252ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZD'] .lowest-price> text to contain: \"$294\" - condition was met in 78ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 108 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='FX']> text to contain: \"Fox\" - condition was met in 229ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='FX'] .lowest-price> text to contain: \"$170\" - condition was met in 101ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 73 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZT']> text to contain: \"Thrifty\" - condition was met in 663ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='ZT'] .lowest-price> text to contain: \"$28\" - condition was met in 173ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#label-vendor> was visible after 198 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='AL']> text to contain: \"Alamo\" - condition was met in 379ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <div[data-filter-name='AL'] .lowest-price> text to contain: \"$15\" - condition was met in 79ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 4543,
+            "time": "4.543"
+          },
+          "Verify the selected Vendor Filter is applied": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Verified 1 elements located by locator '.vendor-image-box>img' have attribute 'alt' contatining value 'dollar'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Verified 1 elements located by locator 'div.book-container a span span.visuallyhidden' contain text 'dollar'",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <h1.section-header-main>div> text to equal: \"1 Car at Seattle airport from $162\" - condition was met in 148ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 363,
+            "time": "0.3630"
+          },
+          "Verify preferred vendor doesn't get reselected upon sort selection": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <input[type='checkbox'][name='vendor'][id='vendor-ZR']> was visible after 73 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input[type='checkbox'][name='vendor'][id='vendor-ZR']> to not be selected - condition was met in 2918ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Passed [ok]: Current url does not contain vend param",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 5441,
+            "time": "5.441"
+          }
+        },
+        "skipped": [],
+        "time": "26.01",
+        "timestamp": "Tue, 03 Oct 2017 04:44:46 GMT",
+        "group": "storefrontValidation",
+        "tests": 4,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 33,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

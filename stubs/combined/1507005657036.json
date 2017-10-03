@@ -1,0 +1,100 @@
+{
+  "results": {
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 7,
+    "errmessages": [],
+    "modules": {
+      "stubbed/Infosite/testTransmission": {
+        "completed": {
+          "Turn On Abacus 10387": {
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Abacus 10387 is set to 1",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 747,
+            "time": "0.7470"
+          },
+          "Verify automatic transmission is displayed": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 3791 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.transmission-value> to be visible - condition was met in 344ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.transmission-value .full-description> text to equal: \"Automatic transmission\" - condition was met in 330ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 17735,
+            "time": "17.73"
+          },
+          "Verify manual transmission is displayed": {
+            "passed": 3,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <.site-content> was present after 4927 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.transmission-value> to be visible - condition was met in 231ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <.transmission-value .full-description> text to equal: \"Manual transmission\" - condition was met in 315ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 12975,
+            "time": "12.97"
+          }
+        },
+        "skipped": [],
+        "time": "31.46",
+        "timestamp": "Tue, 03 Oct 2017 04:39:02 GMT",
+        "group": "Infosite",
+        "tests": 3,
+        "errmessages": [],
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "assertions": 7,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "stubbed"
+}

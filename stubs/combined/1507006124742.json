@@ -1,0 +1,120 @@
+{
+  "results": {
+    "passed": 29,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 30,
+    "errmessages": [],
+    "modules": {
+      "stubbed/errorValidations/TestErrorIsDisplayedForInvalidDates": {
+        "completed": {
+          "Search For Car With Invalid Pickup Date Format": {
+            "passed": 9,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was visible after 458 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"10/08/2017\" - condition was met in 28ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#pick-up-time>option[value='1130AM']> was visible after 76 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <select#drop-off-time>option[value='1230AM']> was visible after 43 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <label.invalid[for='pick-up-date']> to be present - element was present in 2160ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> to be present in 30000ms - element was present in 13ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please enter date like this: mm/dd/yyyy\" - condition was met in 350ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"There are errors on the form\" - condition was met in 372ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <#wizard-errors> text to contain: \"Please fix the following errors to continue:\" - condition was met in 273ms",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              }
+            ],
+            "timeMs": 14344,
+            "time": "14.34"
+          },
+          "Search For Car With Past Pickup Date": {
+            "passed": 2,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0,
+            "assertions": [
+              {
+                "message": "Element <#pick-up-location> was present after 442 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Element <#pick-up-location> was visible after 63 milliseconds.",
+                "stackTrace": "",
+                "fullMsg": "",
+                "failure": false
+              },
+              {
+                "message": "Expected element <input#pick-up-date> to have value equal: \"09/28/2017\"",
+                "stackTrace": "    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/pageobjects/common/searchPlaybackComponent.js:20:33)\n    at Object.<anonymous> (/data/jenkins/workspace/car-shopping-web-ui-nw-tests/src/test/acceptanceTests/custom-commands/clickByJs.js:15:18)",
+                "fullMsg": "Expected element <input#pick-up-date> to have value equal: \"09/28/2017\" \u001b[1;37m - expected \u001b[0;32m\"equal '09/28/2017'\"\u001b[0m\u001b[0m but got: \u001b[0;31m\"mm/dd/yy\"\u001b[0m",
+                "failure": "Expected \"equal '09/28/2017'\" but got: \"mm/dd/yy\""
+              }
+            ],
+            "timeMs": 68175,
+            "time": "68.17"
+          }
+        },
+        "skipped": [],
+        "time": "82.52",
+        "timestamp": "Tue, 03 Oct 2017 04:47:15 GMT",
+        "group": "errorValidations",
+        "tests": 2,
+        "errmessages": [],
+        "failures": 1,
+        "errors": 0
+      }
+    },
+    "assertions": 30,
+    "environment": "US"
+  },
+  "locale": "en_US",
+  "group": "mobile"
+}
